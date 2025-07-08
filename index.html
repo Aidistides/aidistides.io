@@ -1,16 +1,57 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Aiden Young</title>
-  </head>
-  <body>
-    <h1>Aiden Young</h1>
-    <p>Software developer. Curious human.</p>
-
-    <p>
-      <a href="https://github.com/aidistides">GitHub</a><br>
-      <a href="mailto:you@example.com">Email</a><br>
-      <a href="https://aidistides.github.io">Website</a>
-    </p>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Aiden Young</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aiden Young. Software developer. Curious human.">
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      background: #fff;
+      color: #222;
+      font-family: system-ui, sans-serif;
+      height: 100vh;
+    }
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .name {
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+    .bio {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+      color: #555;
+    }
+    .links a {
+      color: #222;
+      margin: 0 1rem;
+      font-size: 1.1rem;
+      text-decoration: none;
+      border-bottom: 1px dashed #aaa;
+      transition: border 0.2s;
+    }
+    .links a:hover {
+      border-bottom: 1px solid #222;
+    }
+  </style>
+</head>
+<body>
+  <div class="name">Aiden Young</div>
+  <div class="bio">Software developer. Curious human.</div>
+  <div class="links">
+    <a href="mailto:your@email.com">Email</a>
+    <a href="https://github.com/aidistides">GitHub</a>
+    <a href="https://aidistides.github.io">Website</a>
+  </div>
+</body>
 </html>
